@@ -56,6 +56,10 @@ export const InfosContainer = styled('div')`
   display: grid;
   grid-template-columns: 1fr 1fr;
 
+  @media (max-width: 576px) {
+    grid-template-columns: 3fr 1fr;
+  }
+
   div {
     display: flex;
     flex-direction: column;
