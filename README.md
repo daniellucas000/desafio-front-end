@@ -1,7 +1,7 @@
 <h1 align="center">Desafio Lacrei Saúde</h1>
 
 <h3 align="center">
-    <a href="https://desafio-front-end-lacrei-saude.vercel.app/">Acessar a demonstração</a>
+    <a href="https://desafio-front-end-lacrei-saude.vercel.app/" target="_blank">Acessar a demonstração</a>
 <h3 >
 
 <h2>Como baixar o projeto</h2>
@@ -20,6 +20,7 @@
     # Iniciar o projeto
     $ npm run dev
 ```
+
 # Teste dos Componentes
 
 Este documento descreve os testes realizados para os componentes utilizando as bibliotecas de testes Jest e @testing-library/react.
@@ -38,3 +39,4 @@ Para executar os testes, você pode usar o comando:
 
 ```bash
 npm run test
+```
