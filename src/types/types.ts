@@ -1,7 +1,7 @@
 import { ReactNode } from 'react';
 
 export interface ButtonProps {
-  onclick?: () => void | undefined;
+  onClick?: () => void | undefined;
   color?: string;
   children?: ReactNode;
 }

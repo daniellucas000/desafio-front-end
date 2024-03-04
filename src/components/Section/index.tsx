@@ -28,7 +28,7 @@ export function Section() {
       </div>
       <ImageContainer>
         <img
-          src="/imagem2I.svg"
+          src="/imagem2I.jpg"
           alt="Uma médica segurando um tablet e conversando com uma paciente"
         />
       </ImageContainer>
