@@ -8,6 +8,7 @@ export function Divider({ color, $margin, height, width }: DividerProps) {
       $margin={$margin}
       height={height}
       width={width}
+      data-testid="divider"
     />
   );
 }

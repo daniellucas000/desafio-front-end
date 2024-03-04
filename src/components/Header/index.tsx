@@ -9,7 +9,7 @@ export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <HeaderContainer>
+    <HeaderContainer data-testid="header">
       <a href="/">
         <img src="/logolacreisaude.svg" alt="Logo da Lacrei Saúde" />
       </a>
@@ -29,7 +29,11 @@ export function Header() {
           </li>
         </ul>
       </nav>
-      <HiOutlineMenuAlt3 onClick={() => setIsMenuOpen(true)} size={35} />
+      <HiOutlineMenuAlt3
+        data-testid="menu-icon"
+        onClick={() => setIsMenuOpen(true)}
+        size={35}
+      />
     </HeaderContainer>
   );
 }

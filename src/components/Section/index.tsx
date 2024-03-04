@@ -4,7 +4,7 @@ import { ButtonContainer, ImageContainer, SectionContainer } from './styled';
 
 export function Section() {
   return (
-    <SectionContainer>
+    <SectionContainer data-testid="section">
       <div>
         <h1>
           <span>Junte-se à</span>

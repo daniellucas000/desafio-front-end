@@ -15,7 +15,7 @@ export function Footer() {
     });
   }
   return (
-    <FooterContainer>
+    <FooterContainer data-testid="footer">
       <Divider />
 
       <ContactContainer>

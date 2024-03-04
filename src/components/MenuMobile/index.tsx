@@ -26,8 +26,18 @@ export function MenuMobile({ isMenuOpen, setIsMenuOpen }: MenuMobileProps) {
   }, [isMenuOpen, setIsMenuOpen]);
 
   return (
-    <Container ref={menuRef} $isVisible={isMenuOpen}>
-      <IoClose size={45} onClick={() => setIsMenuOpen(false)} />
+    <Container
+      ref={menuRef}
+      $isVisible={isMenuOpen}
+      role={isMenuOpen ? 'menu' : undefined}
+    >
+      <IoClose
+        size={45}
+        role="button"
+        aria-label="Fechar menu"
+        onClick={() => setIsMenuOpen(false)}
+      />
+
       <ul>
         <li>
           <a href="#">Quem somos</a>

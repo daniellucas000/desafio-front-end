@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 export interface ButtonProps {
   onclick?: () => void | undefined;
   color?: string;
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 export interface DividerProps {
@@ -11,6 +11,7 @@ export interface DividerProps {
   width?: string;
   height?: string;
   $margin?: string;
+  role?: string;
 }
 
 export interface MenuMobileProps {
