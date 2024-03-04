@@ -22,27 +22,27 @@ export function Footer() {
 
       <ContactContainer>
         <div>
-          <a href="javascript:void(0)" role="button">
+          <a href="#" role="button">
             <img src="/logolacreisaude2.svg" alt="Logo da Lacrei Saúde" />
           </a>
           <SocialContainer>
             <li>
-              <a href="javascript:void(0)" role="button">
+              <a href="#" role="button">
                 <img src="/facebook.svg" alt="Logo do Facebook" />
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" role="button">
+              <a href="#" role="button">
                 <img src="/instagram.svg" alt="Logo do Instagram" />
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" role="button">
+              <a href="#" role="button">
                 <img src="/linkedin.svg" alt="Logo do LinkedIn" />
               </a>
             </li>
             <li>
-              <a href="javascript:void(0)" role="button">
+              <a href="#" role="button">
                 <img src="/email.svg" alt="Ícone de email" />
               </a>
             </li>
@@ -54,22 +54,22 @@ export function Footer() {
             <span>Lacrei Saúde</span>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Quem Somos
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Nosso Propósito
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Missão, Visão e Valor
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Acessibilidade
             </a>
           </li>
@@ -80,12 +80,12 @@ export function Footer() {
             <span>Saúde</span>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Buscar atendimento
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Oferecer atendimento
             </a>
           </li>
@@ -96,17 +96,17 @@ export function Footer() {
             <span>Segurança e Privacidade</span>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Política de Privacidade
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Termos de Uso
             </a>
           </li>
           <li>
-            <a href="javascript:void(0)" role="button">
+            <a href="#" role="button">
               Direitos de Titular
             </a>
           </li>
